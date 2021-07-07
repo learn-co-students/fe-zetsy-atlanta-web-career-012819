@@ -1,5 +1,7 @@
-/*////////////// Fonts //////////////*/
-
+@font-face {
+	font-family: 'Baskerville';
+	src: url(http://learn-co-curriculum.github.io/fe-zetsy/fonts/Baskerville.ttc);
+}
 /* link the web font used for the level 1 heading here */
 
 /*////////// Global Styles //////////*/
@@ -7,7 +9,8 @@
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
+	color: #888;
 }
 
 .wrapper {
@@ -17,4 +20,110 @@ body {
 	padding: 0 45px 20px;
 }
 
+<<<<<<< HEAD
+#header {
+
+}
+
+#header h1 {
+	font-size: 6em;
+	font-family: 'Baskerville', serif;
+	font-weight: normal;
+	line-height: 1.5em;
+	border-style: solid;
+	border-color: #888;
+	border-width: 0px 0px 1px 0px;
+	margin-bottom: 5px;
+}
+#header img {
+	border: 5px solid #888;
+}
+
+#press img {
+	border: 5px solid #CCC;
+
+}
+#press img:hover {
+	border-color: #888;
+}
+
+#footer{
+	font-size: 0.75em;
+	text-align: right;
+}
 /* Write all remaining styles here */
+=======
+/* Write all remaining styles here */
+@font-face {
+	font-family: 'Baskerville';
+	src: url(../fonts/Baskerville.ttc);
+}
+
+/*////////// Global Styles //////////*/
+
+h1 {
+	padding-bottom: 10px;
+	margin: 0 0 5px;
+	font-size: 5em;
+	font-weight: normal;
+	font-family: 'Baskerville', serif;
+	border-bottom: 1px solid #ccc;
+}
+
+h2 {
+	color: rgb(111,127,122);
+	font-size: 2em;
+}
+
+p  {
+	color: #555;
+	font-size: 1em;
+	margin: 0 0 20px 0;
+}
+
+.small {
+	font-size: 0.8em;
+}
+
+/*////////// Section Styles //////////*/
+
+header a {
+	color: rgb(152,173,166);
+	text-decoration: none;
+}
+
+header a:hover {
+	color: rgb(111,127,122);
+}
+
+#featured img {
+	border: 5px rgb(152,173,166) solid;
+}
+
+#featured a {
+	color: #1783bb;
+	text-decoration: none;
+}
+
+#featured a:hover {
+	text-decoration: underline;
+}
+
+#press {
+	margin-bottom: 20px;
+}
+
+#press img {
+	border: 5px #ccc solid;
+	padding: 1px;
+}
+
+#press img:hover {
+	border: 5px rgb(111,127,122) solid;
+}
+
+footer {
+	text-align: right;
+	background: #fff;
+}
+>>>>>>> 0c1d0f434d251dc9afa037127811f4bdbf826a29
